@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw 3vw;
+}
+
+header button {
+    border-radius: 2vw;
+    padding: 0.5vw 2vw;
+    border-color: var(--primary-light-pink);
+    background-color: white;
+    border: 0.1vw solid ;
+    color: var(--primary-light-pink);
+    box-shadow: 1px 1px 5px #bbb;
+    transition: 0.3s ease;
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: var(--primary-light-pink);
+    color: white;
+    border-color: var(--primary-light-pink);
+}
+
+header img {
+    width: 15vw;
+}

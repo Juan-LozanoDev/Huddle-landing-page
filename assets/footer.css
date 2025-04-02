@@ -1,0 +1,105 @@
+footer {
+    background-color: #00252e;
+    color: white;
+    }
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+.logo {
+    filter: grayscale() invert();
+}
+
+.social {
+    width: 45%;
+}
+
+.social span{
+    display: flex;
+    align-items: center;
+    padding: 0.5vw 0;
+}
+
+.social > span > svg {
+    width: 1.5rem;
+    margin-right: 0.6vw;
+    filter: invert();
+}
+
+.social > div {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-right: 0.6rem;
+    border-radius: 0.5vw;
+    display: inline-block;
+}
+
+.instagram a svg {
+    border-radius: 0.3rem;
+    background: none;
+}
+
+.facebook :hover {
+    fill: #0866ff;
+}
+
+.instagram a svg:hover {
+    background: linear-gradient(#833ab4,#fd1d1d,#fcb045);
+}
+
+.twitter :hover {
+    fill: #249ef0;
+}
+
+form {
+    width: 65%;
+    margin: 0 6vw 0 20vw;
+}
+
+form h3 {
+    font-size: 1.5vw;
+}
+
+form button {
+    padding: 0.5vw 2vw;
+    border: none;
+    border-radius: 0.3vw;
+    background-color: var(--primary-pink);
+    color: white;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background-color: var(--primary-light-pink);
+    cursor: pointer;
+}
+
+form > div {
+    margin-top: 2vw;
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+}
+
+form p {
+    padding-right: 7vw;
+}
+
+form input {
+    border: 1px solid transparent;
+    border-radius: 0.3vw;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+form input:hover{
+    border: 1px solid var(--primary-light-pink);
+    cursor: pointer;
+}
+form input:focus{
+    border: 1px solid var(--primary-light-pink);
+}

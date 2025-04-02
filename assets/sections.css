@@ -1,0 +1,66 @@
+.even-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6vw;
+    gap: 15vw;
+    background-color: #f6fbff;
+}
+
+.even-section img {
+    width: 30vw;
+}
+
+.even-section h3 {
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.even-section p {
+    font-weight: 400;
+}
+
+.odd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6vw;
+    gap: 15vw;
+}
+
+.odd img {
+    width: 30vw;
+}
+
+.odd h3 {
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.odd p {
+    font-weight: 400;
+}
+
+.last-section {
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+.last-section h3 {
+    font-size: 2.5vw;
+}
+
+.wave2-background img{
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin-bottom: 10vw;
+}
+
+.wave1-background img {
+    width: 100%;
+    padding: 0;
+    margin-top: 10vw;
+    position: relative;
+    top: 10px;
+}
